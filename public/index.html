@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="bn-BD" data-title-en="Bangladesh Electricity Bill Calculator 2026 | বিদ্যুৎ বিল">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>বিদ্যুৎ বিল ক্যালকুলেটর ২০২৬ | Bangladesh Electricity Bill</title>
+<meta name="description" content="ইউনিট দিয়ে বিদ্যুৎ বিল হিসাব করুন: বিইআরসির জুন ২০২৬ আবাসিক মূল্যহার, ডিমান্ড চার্জ, ৫% ভ্যাট, মিটার ভাড়া ও প্রিপেইড রিবেট। BD electricity bill calculator.">
+<link rel="canonical" href="https://bangladesh-electricity-bill-calculator.vercel.app/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Mahir Faysal">
+<meta name="theme-color" content="#0e7490">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="bn_BD">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:site_name" content="Bangladesh Electricity Bill Calculator 2026">
+<meta property="og:title" content="বিদ্যুৎ বিল ক্যালকুলেটর ২০২৬ | Bangladesh Electricity Bill Calculator">
+<meta property="og:description" content="বিইআরসি জুন ২০২৬ মূল্যহারে আবাসিক বিদ্যুৎ বিল: ধাপভিত্তিক ইউনিট মূল্য, ডিমান্ড চার্জ, ভ্যাট ও মিটার ভাড়া। Bangla &amp; English.">
+<meta property="og:url" content="https://bangladesh-electricity-bill-calculator.vercel.app/">
+<meta property="og:image" content="https://bangladesh-electricity-bill-calculator.vercel.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bangladesh electricity bill calculator with the 2026 BERC residential tariff">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="বিদ্যুৎ বিল ক্যালকুলেটর ২০২৬ | Bangladesh Electricity Bill Calculator">
+<meta name="twitter:description" content="বিইআরসি জুন ২০২৬ মূল্যহারে আবাসিক বিদ্যুৎ বিল: ধাপভিত্তিক ইউনিট মূল্য, ডিমান্ড চার্জ, ভ্যাট ও মিটার ভাড়া। Bangla &amp; English.">
+<meta name="twitter:image" content="https://bangladesh-electricity-bill-calculator.vercel.app/og.png">
+<style>:root{--accent:#0e7490;--accent-2:#06b6d4;--accent-soft:#e6f7fb;--hero:linear-gradient(135deg,#083344 0%,#155e75 50%,#0891b2 100%)}
+@media (prefers-color-scheme:dark){:root{--accent:#67e8f9;--accent-2:#22d3ee;--accent-soft:#082a33}}
+.crumbs{font-size:13px;margin:0 0 14px;opacity:.85}.crumbs a{color:#fff}.crumbs span{margin:0 6px;opacity:.7}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media (max-width:420px){.row2{grid-template-columns:1fr}}
+.inline{display:flex;gap:10px;align-items:stretch}.inline .money{flex:1;min-width:0}.inline select{width:auto;flex:none;font-size:15px}input{min-width:0}.toplinks a{white-space:nowrap}.card{min-width:0}
+
+.tick{display:flex;gap:10px;align-items:center;font-weight:600;font-size:15px;cursor:pointer;margin:10px 0}.tick input{width:20px;height:20px;accent-color:var(--accent);flex:none}
+fieldset>legend{font-weight:800;font-size:16px;margin-bottom:12px;padding:0}
+.stats.three{grid-template-columns:repeat(3,minmax(0,1fr))}@media (max-width:420px){.stats.three{grid-template-columns:1fr 1fr}}
+.langbtn{font:inherit;font-size:14px;font-weight:700;color:var(--accent);background:#fff;border:0;border-radius:999px;padding:6px 14px;cursor:pointer}
+#rentCustomWrap[hidden],#unitsWrap[hidden],#amountWrap[hidden]{display:none}
+tr.cur td{font-weight:800;color:var(--accent)}
+tr.sum td{font-weight:800;border-top:2px solid var(--line)}
+.flag{display:inline-block;font-size:11px;font-weight:700;background:#fff7e6;color:#5c3b00;border:1px solid #f5c26b;border-radius:999px;padding:1px 8px;vertical-align:1px}
+</style>
+<link rel="stylesheet" href="base.css">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://bangladesh-electricity-bill-calculator.vercel.app/#app", "name": "Bangladesh Electricity Bill Calculator 2026", "url": "https://bangladesh-electricity-bill-calculator.vercel.app/", "description": "Free Bangladesh residential (LT-A) electricity bill calculator using the BERC tariff from bill month June 2026 (Order 2026/22 and Reconsideration Order 2026/01): step rates, lifeline rate, demand charge, VAT, meter rent and prepaid rebate. Bangla and English.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript", "inLanguage": ["bn-BD", "en"], "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "BDT"}, "areaServed": {"@type": "Country", "name": "Bangladesh"}, "image": "https://bangladesh-electricity-bill-calculator.vercel.app/og.png", "author": {"@type": "Person", "name": "Mahir Faysal", "url": "https://mfaysal.com"}, "isBasedOn": "https://berc.org.bd/pages/notices", "dateModified": "2026-10-08"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Mahir Faysal", "item": "https://mfaysal.com/"}, {"@type": "ListItem", "position": 2, "name": "Free tools", "item": "https://mfaysal.com/uk-tools"}, {"@type": "ListItem", "position": 3, "name": "Bangladesh Electricity Bill Calculator", "item": "https://bangladesh-electricity-bill-calculator.vercel.app/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "২০২৬ সালে আবাসিক বিদ্যুতের প্রতি ইউনিটের দাম কত?", "acceptedAnswer": {"@type": "Answer", "text": "বিল মাস জুন ২০২৬ থেকে: লাইফলাইন (০–৫০ ইউনিট) ৪.৬৩ টাকা, প্রথম ধাপ (০–৭৫) ৫.২৬ টাকা, ৭৬–২০০ ইউনিট ৮.৫০ টাকা, ২০১–৩০০ ইউনিট ৯.১০ টাকা, ৩০১–৪০০ ইউনিট ৯.৬২ টাকা, ৪০১–৬০০ ইউনিট ১৫.০১ টাকা এবং ৬০০ ইউনিটের উপরে ১৭.৩৫ টাকা।"}}, {"@type": "Question", "name": "লাইফলাইন রেট কারা পাবেন?", "acceptedAnswer": {"@type": "Answer", "text": "যাদের পুরো মাসের ব্যবহার ৫০ ইউনিট বা তার কম, শুধু তারাই ৪.৬৩ টাকা হারে বিল দেবেন। ৫০ ইউনিটের বেশি হলে প্রথম ধাপ (৫.২৬ টাকা) থেকে ধাপে ধাপে হিসাব হয়।"}}, {"@type": "Question", "name": "ডিমান্ড চার্জ কী এবং কত?", "acceptedAnswer": {"@type": "Answer", "text": "ডিমান্ড চার্জ হলো অনুমোদিত লোডের উপর মাসিক চার্জ। আবাসিক গ্রাহকের জন্য প্রতি কিলোওয়াট ৪২ টাকা প্রতি মাস, তাই ২ কিলোওয়াট লোডে মাসে ৮৪ টাকা। জুন ২০২৬-এর আদেশে এটি অপরিবর্তিত রয়েছে।"}}, {"@type": "Question", "name": "বিদ্যুৎ বিলে ভ্যাট কত?", "acceptedAnswer": {"@type": "Answer", "text": "এনার্জি চার্জ ও ডিমান্ড চার্জের উপর সাধারণত ৫% মূল্য সংযোজন কর (ভ্যাট) যোগ হয়। আপনার বিলে ভিন্ন দেখালে ক্যালকুলেটরে ভ্যাটের হার ও মিটার ভাড়ায় ভ্যাট প্রযোজ্য কিনা বদলে নিন।"}}, {"@type": "Question", "name": "প্রিপেইড মিটারে কোনো ছাড় আছে?", "acceptedAnswer": {"@type": "Answer", "text": "হ্যাঁ। বিইআরসির আদেশ অনুযায়ী প্রি-পেইড মিটার গ্রাহকরা ভ্যাট বাদে নিট বিলের উপর ০.৫% রিবেট পান।"}}, {"@type": "Question", "name": "মিটার ভাড়া কত টাকা?", "acceptedAnswer": {"@type": "Answer", "text": "বিতরণ কোম্পানির দেওয়া মিটারে সাধারণত এক ফেজে মাসে ৪০ টাকা এবং তিন ফেজে ২৫০ টাকা কাটা হয়; নিজের কেনা মিটারে ভাড়া নেই। আপনার বিলে যা আছে ক্যালকুলেটরে সেটিই লিখুন।"}}, {"@type": "Question", "name": "ধাপভিত্তিক হিসাব কীভাবে হয়?", "acceptedAnswer": {"@type": "Answer", "text": "প্রতিটি ধাপের ইউনিট সেই ধাপের দামে হিসাব হয়। যেমন ২৫০ ইউনিট: ৭৫ × ৫.২৬ = ৩৯৪.৫০, ১২৫ × ৮.৫০ = ১,০৬২.৫০, ৫০ × ৯.১০ = ৪৫৫; মোট এনার্জি চার্জ ১,৯১২ টাকা।"}}]}]}
+</script>
+</head>
+<body>
+<a class="skip" href="#calc" data-en="Skip to calculator">ক্যালকুলেটরে যান</a>
+<header class="hero">
+  <div class="wrap">
+    <nav class="topbar" aria-label="Site">
+      <a class="brand" href="./"><span class="logo" aria-hidden="true">💡</span><span data-en="Electricity Bill Calculator">বিদ্যুৎ বিল ক্যালকুলেটর</span></a>
+      <div class="toplinks"><a href="#how" data-en="How it works">কীভাবে হিসাব হয়</a><a href="#faq" data-en="FAQs">প্রশ্নোত্তর</a><button type="button" id="lang" class="langbtn">English</button></div>
+    </nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="https://mfaysal.com/">mfaysal.com</a><span aria-hidden="true">›</span><a href="https://mfaysal.com/uk-tools" data-en="Free tools">ফ্রি টুল</a><span aria-hidden="true">›</span><span class="here" data-en="Bangladesh Electricity Bill Calculator">বিদ্যুৎ বিল ক্যালকুলেটর</span></nav>
+    <h1 data-en="Bangladesh Electricity Bill Calculator 2026">বিদ্যুৎ বিল ক্যালকুলেটর ২০২৬</h1>
+    <p class="lede" data-en="Enter your monthly units and see your total bill at the latest BERC residential tariff, with the energy charge step by step, demand charge, VAT, meter rent and prepaid rebate.">মাসের ইউনিট লিখুন, বিইআরসির সর্বশেষ আবাসিক মূল্যহারে মোট বিল দেখুন: ধাপে ধাপে এনার্জি চার্জ, ডিমান্ড চার্জ, ভ্যাট, মিটার ভাড়া ও প্রিপেইড রিবেটসহ।</p>
+    <ul class="badges" aria-label="Highlights"><li data-en="From bill month June 2026">বিল মাস জুন ২০২৬ থেকে</li><li data-en="Lifeline Tk 4.63">লাইফলাইন ৪.৬৩ টাকা</li><li data-en="Prepaid recharge estimate">প্রিপেইড রিচার্জ হিসাব</li><li data-en="Bangla &amp;amp; English">বাংলা ও English</li></ul>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+<div class="app" id="calc">
+    <section class="card" aria-labelledby="in-h">
+      <h2 id="in-h" data-en="Your usage">আপনার ব্যবহার</h2>
+      <div class="field">
+        <div class="seg" role="radiogroup" aria-label="হিসাবের ধরন" data-en-aria="Calculation type">
+          <label><input type="radio" name="mode" value="units" checked><span data-en="Units → bill">ইউনিট → বিল</span></label>
+          <label><input type="radio" name="mode" value="amount"><span data-en="Recharge → units">রিচার্জ → ইউনিট</span></label>
+        </div>
+      </div>
+      <div class="field" id="unitsWrap">
+        <label for="units" data-en="Units used this month (kWh)">এই মাসে ব্যবহৃত ইউনিট (কিলোওয়াট-ঘণ্টা)</label>
+        <div class="money pct"><input id="units" type="text" inputmode="decimal" autocomplete="off" value="250"><span class="sfx" aria-hidden="true" data-en="units">ইউনিট</span></div>
+        <input id="unitsRange" type="range" min="0" max="1000" step="5" value="250" aria-label="ইউনিট স্লাইডার" data-en-aria="Units slider">
+        <div class="chips">
+          <button type="button" class="chip" data-u="50">50</button><button type="button" class="chip" data-u="100">100</button><button type="button" class="chip" data-u="150">150</button><button type="button" class="chip" data-u="200">200</button><button type="button" class="chip" data-u="300">300</button><button type="button" class="chip" data-u="500">500</button>
+        </div>
+      </div>
+      <div class="field" id="amountWrap" hidden>
+        <label for="amount" data-en="Recharge amount this month">এই মাসে রিচার্জের পরিমাণ</label>
+        <div class="money"><span class="pfx" aria-hidden="true">৳</span><input id="amount" type="text" inputmode="decimal" autocomplete="off" value="1,000"></div>
+        <p class="hint" data-en="Roughly how many units this buys after this month’s demand charge, meter rent and VAT.">এই মাসের ডিমান্ড চার্জ, মিটার ভাড়া ও ভ্যাট বাদ দিয়ে আনুমানিক কত ইউনিট পাবেন।</p>
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label for="load" data-en="Sanctioned load (kW)">অনুমোদিত লোড (কিলোওয়াট)</label>
+          <input id="load" type="number" inputmode="decimal" min="0" max="100" step="0.5" value="2">
+        </div>
+        <div class="field">
+          <label id="meter-l" data-en="Meter">মিটার</label>
+          <div class="seg" role="radiogroup" aria-labelledby="meter-l">
+            <label><input type="radio" name="meter" value="prepaid" checked><span data-en="Prepaid">প্রিপেইড</span></label>
+            <label><input type="radio" name="meter" value="postpaid"><span data-en="Postpaid">পোস্টপেইড</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="field">
+        <label for="rent" data-en="Meter rent a month">মাসিক মিটার ভাড়া</label>
+        <select id="rent">
+          <option value="40" data-en="Single phase: Tk 40">সিঙ্গেল ফেজ: ৪০ টাকা</option>
+          <option value="250" data-en="Three phase: Tk 250">থ্রি ফেজ: ২৫০ টাকা</option>
+          <option value="0" data-en="My own meter: none">নিজের মিটার: ভাড়া নেই</option>
+          <option value="custom" data-en="Other amount">অন্য পরিমাণ</option>
+        </select>
+        <div id="rentCustomWrap" hidden style="margin-top:10px"><div class="money"><span class="pfx" aria-hidden="true">৳</span><input id="rentCustom" type="text" inputmode="decimal" value="40" aria-label="মিটার ভাড়া" data-en-aria="Meter rent"></div></div>
+        <p class="hint"><span class="flag" data-en="Check your bill">বিল মিলিয়ে নিন</span> <span data-en="Meter rent isn’t in the BERC tariff order; these are the usual distributor charges for a company-supplied meter.">মিটার ভাড়া বিইআরসির মূল্যহার আদেশে নেই; এগুলো বিতরণ কোম্পানির সরবরাহ করা মিটারের সাধারণ ভাড়া।</span></p>
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label for="vat" data-en="VAT">ভ্যাট</label>
+          <div class="money pct"><input id="vat" type="number" inputmode="decimal" min="0" max="30" step="0.5" value="5"><span class="sfx" aria-hidden="true">%</span></div>
+        </div>
+        <div class="field">
+          <label for="demand" data-en="Demand charge (Tk/kW)">ডিমান্ড চার্জ (টাকা/কি.ও.)</label>
+          <input id="demand" type="number" inputmode="decimal" min="0" max="500" step="1" value="42">
+        </div>
+      </div>
+      <label class="tick"><input type="checkbox" id="vatRent"> <span data-en="Charge VAT on meter rent too">মিটার ভাড়ার উপরও ভ্যাট ধরুন</span></label>
+    </section>
+
+    <section class="card sticky" aria-labelledby="out-h">
+      <h2 id="out-h" class="sr-only" data-en="Your electricity bill">আপনার বিদ্যুৎ বিল</h2>
+      <div class="big-label" id="bigLabel" data-en="Estimated bill this month">এই মাসের আনুমানিক বিল</div>
+      <div class="big" id="total" aria-live="polite">৳০</div>
+      <p class="sub" id="summary">&nbsp;</p>
+      <div class="stats">
+        <div class="stat"><b id="sEnergy">৳০</b><span data-en="Energy charge">এনার্জি চার্জ</span></div>
+        <div class="stat"><b id="sDemand">৳০</b><span data-en="Demand charge">ডিমান্ড চার্জ</span></div>
+        <div class="stat"><b id="sVat">৳০</b><span data-en="VAT">ভ্যাট</span></div>
+        <div class="stat"><b id="sAvg">৳০</b><span data-en="Average per unit (all-in)">প্রতি ইউনিটে গড় (সব মিলিয়ে)</span></div>
+      </div>
+      <div id="notes"></div>
+      <div class="table-scroll">
+        <table>
+          <caption class="sr-only" data-en="Bill breakdown">বিলের বিস্তারিত</caption>
+          <thead><tr><th data-en="Item">বিবরণ</th><th class="r" data-en="Units">ইউনিট</th><th class="r" data-en="Rate">হার</th><th class="r" data-en="Amount">টাকা</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="actions">
+        <button class="btn" id="share" type="button" data-en="🔗 Copy share link">🔗 লিংক কপি করুন</button>
+        <button class="btn ghost" id="copy" type="button" data-en="Copy result">ফলাফল কপি</button>
+        <button class="btn ghost" id="print" type="button" data-en="Print">প্রিন্ট</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="grid2 section">
+    <section class="card" aria-labelledby="tar-h">
+      <h2 id="tar-h" data-en="Residential (LT-A) tariff from June 2026">আবাসিক (এলটি-এ) মূল্যহার, জুন ২০২৬ থেকে</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th data-en="Step">ধাপ</th><th class="r" data-en="Tk per unit">টাকা/ইউনিট</th></tr></thead>
+          <tbody id="tariff"></tbody>
+        </table>
+      </div>
+      <p class="hint" data-en="Demand charge Tk 42 per kW a month. Prepaid meters get a 0.5% rebate on the net bill excluding VAT.">ডিমান্ড চার্জ প্রতি কিলোওয়াট মাসে ৪২ টাকা। প্রিপেইড মিটারে ভ্যাট বাদে নিট বিলের উপর ০.৫% রিবেট।</p>
+    </section>
+    <section class="card" aria-labelledby="com-h">
+      <h2 id="com-h" data-en="Bills at common usage (your settings)">সাধারণ ব্যবহারে বিল (আপনার সেটিংসে)</h2>
+      <div class="bars" id="bars"></div>
+    </section>
+  </div>
+
+  <article class="card section article" id="how">
+    <h2 data-en="How a Bangladesh electricity bill is calculated">বাংলাদেশে বিদ্যুৎ বিল কীভাবে হিসাব হয়</h2>
+    <p data-en="Bangladesh Energy Regulatory Commission (BERC) sets retail electricity prices. Its <strong>Order No. 2026/22</strong> (notice dated 3 June 2026) raised most residential rates from <strong>bill month June 2026</strong>. After review, <strong>Reconsideration Order No. 2026/01</strong> (4 June 2026) kept the lifeline and first-step rates at their old levels to protect small users. This calculator uses both.">বাংলাদেশ এনার্জি রেগুলেটরি কমিশন (বিইআরসি) খুচরা বিদ্যুতের দাম নির্ধারণ করে। কমিশনের <strong>আদেশ নং ২০২৬/২২</strong> (৩ জুন ২০২৬ তারিখের বিজ্ঞপ্তি) অনুযায়ী <strong>জুন ২০২৬ বিল মাস</strong> থেকে বেশিরভাগ আবাসিক মূল্যহার বেড়েছে। পরে <strong>পুনর্বিবেচনা আদেশ নং ২০২৬/০১</strong> (৪ জুন ২০২৬) অনুযায়ী ক্ষুদ্র গ্রাহকদের জন্য লাইফলাইন ও প্রথম ধাপের দাম আগের মতোই রাখা হয়েছে। এই ক্যালকুলেটরে দুটি আদেশই ব্যবহার করা হয়েছে।</p>
+    <h3 data-en="1. Energy charge (step billing)">১. এনার্জি চার্জ (ধাপভিত্তিক)</h3>
+    <p data-en="Units are charged in blocks. The first 75 units cost Tk 5.26 each, units 76 to 200 cost Tk 8.50, and so on, up to Tk 17.35 for every unit over 600. If you use 50 units or less in the whole month, all of them are charged at the lifeline rate of Tk 4.63 instead.">ইউনিটগুলো ধাপে ধাপে হিসাব হয়। প্রথম ৭৫ ইউনিট প্রতিটি ৫.২৬ টাকা, ৭৬ থেকে ২০০ ইউনিট ৮.৫০ টাকা, এভাবে ৬০০ ইউনিটের উপরে প্রতি ইউনিট ১৭.৩৫ টাকা। পুরো মাসে ৫০ ইউনিট বা কম ব্যবহার করলে সব ইউনিট লাইফলাইন হারে ৪.৬৩ টাকায় হিসাব হয়।</p>
+    <h3 data-en="2. Demand charge, meter rent and VAT">২. ডিমান্ড চার্জ, মিটার ভাড়া ও ভ্যাট</h3>
+    <p data-en="On top of the energy charge you pay a <strong>demand charge of Tk 42 per kW</strong> of sanctioned load each month, meter rent if the meter belongs to the distributor, and <strong>5% VAT</strong>. Prepaid customers get a 0.5% rebate on the net bill before VAT.">এনার্জি চার্জের সাথে প্রতি মাসে অনুমোদিত লোডের প্রতি কিলোওয়াটে <strong>৪২ টাকা ডিমান্ড চার্জ</strong>, বিতরণ কোম্পানির মিটার হলে মিটার ভাড়া এবং <strong>৫% ভ্যাট</strong> যোগ হয়। প্রিপেইড গ্রাহকরা ভ্যাটের আগের নিট বিলের উপর ০.৫% রিবেট পান।</p>
+    <h3 data-en="A worked example">একটি উদাহরণ</h3>
+    <p data-en="A home with a 2 kW postpaid connection uses 250 units. Energy charge: 75 × 5.26 + 125 × 8.50 + 50 × 9.10 = Tk 1,912. Demand charge 2 × 42 = Tk 84, meter rent Tk 40. VAT at 5% on Tk 1,996 = Tk 99.80. Total: <strong>Tk 2,135.80</strong>. With a prepaid meter the 0.5% rebate (Tk 10.18) brings it to Tk 2,125.62.">২ কিলোওয়াট পোস্টপেইড সংযোগের একটি বাসায় ২৫০ ইউনিট ব্যবহার হলো। এনার্জি চার্জ: ৭৫ × ৫.২৬ + ১২৫ × ৮.৫০ + ৫০ × ৯.১০ = ১,৯১২ টাকা। ডিমান্ড চার্জ ২ × ৪২ = ৮৪ টাকা, মিটার ভাড়া ৪০ টাকা। ১,৯৯৬ টাকার উপর ৫% ভ্যাট = ৯৯.৮০ টাকা। মোট <strong>২,১৩৫.৮০ টাকা</strong>। প্রিপেইড মিটারে ০.৫% রিবেট (১০.১৮ টাকা) বাদে ২,১২৫.৬২ টাকা।</p>
+    <p class="muted" data-en="Sources: <a href=&quot;https://berc.org.bd/pages/notices&quot; rel=&quot;noopener&quot;>BERC notices</a>: Retail electricity tariff Order No. 2026/22 (notice dated 3 June 2026, effective bill month June 2026: step rates, demand charge, prepaid rebate) and Reconsideration Order No. 2026/01 (4 June 2026: lifeline and first-step rates). Meter rent and VAT aren’t in the order table, so they’re editable. Last checked 8 October 2026.">সূত্র: <a href="https://berc.org.bd/pages/notices" rel="noopener">বিইআরসি বিজ্ঞপ্তি</a>: খুচরা বিদ্যুৎ মূল্যহার আদেশ নং ২০২৬/২২ (৩ জুন ২০২৬ তারিখের বিজ্ঞপ্তি, বিল মাস জুন ২০২৬ থেকে কার্যকর: ধাপভিত্তিক মূল্যহার, ডিমান্ড চার্জ, প্রিপেইড রিবেট) এবং পুনর্বিবেচনা আদেশ নং ২০২৬/০১ (৪ জুন ২০২৬: লাইফলাইন ও প্রথম ধাপ)। মিটার ভাড়া ও ভ্যাট আদেশের টেবিলে নেই, তাই পরিবর্তনযোগ্য রাখা হয়েছে। সর্বশেষ যাচাই: ৮ অক্টোবর ২০২৬।</p>
+  </article>
+
+  <section class="section article faq" id="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h" data-en="Electricity bill FAQs">বিদ্যুৎ বিল নিয়ে প্রশ্নোত্তর</h2>
+    <details><summary data-en="What is the residential electricity price per unit in 2026?">২০২৬ সালে আবাসিক বিদ্যুতের প্রতি ইউনিটের দাম কত?</summary><p data-en="From bill month June 2026: lifeline (0–50 units) Tk 4.63, first step (0–75) Tk 5.26, 76–200 units Tk 8.50, 201–300 Tk 9.10, 301–400 Tk 9.62, 401–600 Tk 15.01 and above 600 units Tk 17.35.">বিল মাস জুন ২০২৬ থেকে: লাইফলাইন (০–৫০ ইউনিট) ৪.৬৩ টাকা, প্রথম ধাপ (০–৭৫) ৫.২৬ টাকা, ৭৬–২০০ ইউনিট ৮.৫০ টাকা, ২০১–৩০০ ইউনিট ৯.১০ টাকা, ৩০১–৪০০ ইউনিট ৯.৬২ টাকা, ৪০১–৬০০ ইউনিট ১৫.০১ টাকা এবং ৬০০ ইউনিটের উপরে ১৭.৩৫ টাকা।</p></details>
+    <details><summary data-en="Who gets the lifeline rate?">লাইফলাইন রেট কারা পাবেন?</summary><p data-en="Only households that use 50 units or less in the whole month pay the Tk 4.63 lifeline rate. Above 50 units, the bill is worked out step by step from the first step at Tk 5.26.">যাদের পুরো মাসের ব্যবহার ৫০ ইউনিট বা তার কম, শুধু তারাই ৪.৬৩ টাকা হারে বিল দেবেন। ৫০ ইউনিটের বেশি হলে প্রথম ধাপ (৫.২৬ টাকা) থেকে ধাপে ধাপে হিসাব হয়।</p></details>
+    <details><summary data-en="What is the demand charge?">ডিমান্ড চার্জ কী এবং কত?</summary><p data-en="It’s a monthly charge on your sanctioned load: Tk 42 per kW per month for homes, so a 2 kW connection pays Tk 84 a month. The June 2026 order left it unchanged.">ডিমান্ড চার্জ হলো অনুমোদিত লোডের উপর মাসিক চার্জ। আবাসিক গ্রাহকের জন্য প্রতি কিলোওয়াট ৪২ টাকা প্রতি মাস, তাই ২ কিলোওয়াট লোডে মাসে ৮৪ টাকা। জুন ২০২৬-এর আদেশে এটি অপরিবর্তিত রয়েছে।</p></details>
+    <details><summary data-en="How much VAT is on an electricity bill?">বিদ্যুৎ বিলে ভ্যাট কত?</summary><p data-en="Usually 5% VAT on the energy and demand charges. If your bill shows something different, change the VAT rate or the meter-rent VAT option in the calculator.">এনার্জি চার্জ ও ডিমান্ড চার্জের উপর সাধারণত ৫% মূল্য সংযোজন কর (ভ্যাট) যোগ হয়। আপনার বিলে ভিন্ন দেখালে ক্যালকুলেটরে ভ্যাটের হার ও মিটার ভাড়ায় ভ্যাট প্রযোজ্য কিনা বদলে নিন।</p></details>
+    <details><summary data-en="Do prepaid meters get a discount?">প্রিপেইড মিটারে কোনো ছাড় আছে?</summary><p data-en="Yes. Under the BERC order, prepaid customers get a 0.5% rebate on the net bill excluding VAT.">হ্যাঁ। বিইআরসির আদেশ অনুযায়ী প্রি-পেইড মিটার গ্রাহকরা ভ্যাট বাদে নিট বিলের উপর ০.৫% রিবেট পান।</p></details>
+    <details><summary data-en="How much is the meter rent?">মিটার ভাড়া কত টাকা?</summary><p data-en="For a meter supplied by the distribution company it’s usually Tk 40 a month for single phase and Tk 250 for three phase, and nothing if you bought your own meter. Type in the figure from your bill.">বিতরণ কোম্পানির দেওয়া মিটারে সাধারণত এক ফেজে মাসে ৪০ টাকা এবং তিন ফেজে ২৫০ টাকা কাটা হয়; নিজের কেনা মিটারে ভাড়া নেই। আপনার বিলে যা আছে ক্যালকুলেটরে সেটিই লিখুন।</p></details>
+    <details><summary data-en="How does step (telescopic) billing work?">ধাপভিত্তিক হিসাব কীভাবে হয়?</summary><p data-en="Each block of units is charged at its own step’s price. For 250 units: 75 × 5.26 = 394.50, 125 × 8.50 = 1,062.50 and 50 × 9.10 = 455, so the energy charge is Tk 1,912.">প্রতিটি ধাপের ইউনিট সেই ধাপের দামে হিসাব হয়। যেমন ২৫০ ইউনিট: ৭৫ × ৫.২৬ = ৩৯৪.৫০, ১২৫ × ৮.৫০ = ১,০৬২.৫০, ৫০ × ৯.১০ = ৪৫৫; মোট এনার্জি চার্জ ১,৯১২ টাকা।</p></details>
+  </section>
+
+  <p class="disclaimer section" data-en="&lt;strong&gt;Disclaimer:&lt;/strong&gt; An estimate based on BERC Order No. 2026/22 (3 June 2026) and Reconsideration Order No. 2026/01 (4 June 2026). Late-payment surcharges, arrears and other distributor charges aren’t included. Check the meter rent and VAT against your own bill."><strong>দায়বদ্ধতা:</strong> এটি বিইআরসির আদেশ নং ২০২৬/২২ (৩ জুন ২০২৬) ও পুনর্বিবেচনা আদেশ নং ২০২৬/০১ (৪ জুন ২০২৬) অনুযায়ী আনুমানিক হিসাব। বিলম্ব মাশুল, বকেয়া বা বিতরণ কোম্পানির অন্য চার্জ ধরা হয়নি। মিটার ভাড়া ও ভ্যাট আপনার বিল দেখে মিলিয়ে নিন।</p>
+
+  <section class="section" aria-labelledby="more-h">
+    <h2 id="more-h" style="font-size:20px"><span data-en="More free Bangladesh calculators">আরও ফ্রি বাংলাদেশি ক্যালকুলেটর</span></h2>
+    <ul class="more"><li><a href="https://bangladesh-income-tax-calculator.vercel.app/"><span data-en="Bangladesh Income Tax Calculator">আয়কর ক্যালকুলেটর</span><small data-en="Tax year 2026-27 (NBR slabs)">করবর্ষ ২০২৬-২৭, এনবিআর স্ল্যাব</small></a></li><li><a href="https://bkash-nagad-rocket-charge-calculator.vercel.app/"><span data-en="bKash, Nagad &amp;amp; Rocket Charge Calculator">ক্যাশ আউট চার্জ ক্যালকুলেটর</span><small data-en="Cash out fees compared">বিকাশ, নগদ, রকেট চার্জ তুলনা</small></a></li></ul>
+    <h2 style="font-size:17px;margin-top:22px"><span data-en="Free UK calculators">যুক্তরাজ্যের (UK) ফ্রি ক্যালকুলেটর</span></h2>
+    <ul class="more"><li><a href="https://take-home-pay-calculator-uk.vercel.app/">Take-Home Pay Calculator<small>Income Tax, NI &amp; student loan 2026/27</small></a></li><li><a href="https://uk-hourly-salary-calculator.vercel.app/">Hourly to Salary Calculator<small>Pay converter + minimum wage check</small></a></li><li><a href="https://uk-energy-cost-calculator.vercel.app/">Energy Running Cost Calculator<small>Appliance costs at the Ofgem cap</small></a></li><li><a href="https://uk-redundancy-pay-calculator.vercel.app/">Redundancy Pay Calculator<small>Statutory pay with the £751 cap</small></a></li><li><a href="https://uk-holiday-entitlement-calculator.vercel.app/">Holiday Entitlement Calculator<small>Part-time, leavers &amp; 12.07% accrual</small></a></li><li><a href="https://uk-mortgage-repayment-calculator.vercel.app/">Mortgage Calculator<small>Monthly payment, overpayments &amp; affordability</small></a></li><li><a href="https://stamp-duty-calculator-england.vercel.app/">Stamp Duty Calculator<small>First-time buyer, second home &amp; non-resident</small></a></li></ul>
+    <p style="margin-top:14px"><a href="https://mfaysal.com/uk-tools" data-en="See all free tools on mfaysal.com →">mfaysal.com-এ সব ফ্রি টুল দেখুন →</a></p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap row">
+    <span><span data-en="Built by">তৈরি করেছেন</span> <a href="https://mfaysal.com" rel="author" data-en="Mahir Faysal">মাহির ফয়সাল</a> · <a href="https://mfaysal.com/projects/bangladesh-electricity-bill-calculator" data-en="About this project">প্রজেক্ট সম্পর্কে</a> · <a href="https://mfaysal.com/uk-tools" data-en="All tools">সব টুল</a> · <a href="https://github.com/mfaysal-dev/bangladesh-electricity-bill-calculator" data-en="Source on GitHub">GitHub-এ সোর্স</a> · <a href="https://mfaysal.com/hire-web-developer-bangladesh" data-en="Hire a web developer in Bangladesh">ওয়েব ডেভেলপার হায়ার করুন</a></span>
+    <span data-en="BERC tariff from bill month June 2026 · checked 8 October 2026">বিইআরসি মূল্যহার, বিল মাস জুন ২০২৬ · যাচাই ৮ অক্টোবর ২০২৬</span>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

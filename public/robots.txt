@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bangladesh-electricity-bill-calculator.vercel.app/sitemap.xml
